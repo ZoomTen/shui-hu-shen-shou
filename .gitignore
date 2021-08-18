@@ -6,6 +6,7 @@ shui-hu-shen-shou.gbc
 *.o
 *.map
 *.sym
+**/__pycache__
 
 # tool binaries
 *.exe

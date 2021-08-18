@@ -1,0 +1,5 @@
+# Base ROM
+baserom.gbc
+
+# tool binaries
+*.exe

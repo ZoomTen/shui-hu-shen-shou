@@ -45,8 +45,8 @@ SECTION "lcd", ROM0[$0048]
 
 SECTION "Header", ROM0[$0100]
 
-Start::
-	jp Func_0150
+Entry::
+	jp Start
 
 ; rgbfix patches over most of the header
 ; however this game is being weird

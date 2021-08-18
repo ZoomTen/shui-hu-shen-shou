@@ -10,3 +10,6 @@ shui_hu_shen_shou.gbc
 
 # tool binaries
 *.exe
+
+# save files
+*.sav

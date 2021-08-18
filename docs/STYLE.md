@@ -14,6 +14,7 @@
 
 * Spaces after semicolons
 * Comments above code, not below/inline
+* Some exceptions may be made for temporarily labelling data
 
 
 * SECTION, INCLUDE, MACRO, etc. directives should be uppercase

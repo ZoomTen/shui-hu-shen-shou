@@ -2,6 +2,7 @@
 import re
 
 file_list = [ 'banks/bank_%02x.asm' % (i+1) for i in range(0x7f) ]
+file_list.append('home/misc.asm')
 
 visual = True
 

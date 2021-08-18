@@ -1,4 +1,4 @@
-Unk_6f_4000:
+unk_6f_4000:
 	dr $1bc000, $1bffff
 
 

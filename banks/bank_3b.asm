@@ -1,4 +1,4 @@
-Unk_3b_4000:
+unk_3b_4000:
 	dr $ec000, $effff
 
 

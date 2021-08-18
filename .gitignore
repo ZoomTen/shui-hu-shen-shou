@@ -1,5 +1,11 @@
 # Base ROM
 baserom.gbc
 
+# Compiled stuff
+shui-hu-shen-shou.gbc
+*.o
+*.map
+*.sym
+
 # tool binaries
 *.exe

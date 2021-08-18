@@ -13,11 +13,13 @@ ifeq ($(ALLSYM),1)
 ASMFLAGS += -E
 endif
 
-SCANINC := tools/scan_includes
+SCANINC := tools/scan_includes.exe
 
 SOURCES := \
 	home.asm \
-	main.asm
+	main.asm \
+	wram.asm \
+	hram.asm
 
 OBJS := $(SOURCES:%.asm=%.o)
 
@@ -48,7 +50,7 @@ clean:
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
 # It doesn't look like $(shell) can be deferred so there might not be a better way.
 define DEP
-$1: $2 $$(shell tools/scan_includes $2)
+$1: $2 $$(shell $(SCANINC) $2)
 	$$(ASM) $$(ASMFLAGS) -o $$@ $$<
 endef
 

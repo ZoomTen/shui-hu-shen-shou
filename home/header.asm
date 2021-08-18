@@ -34,12 +34,12 @@ FarCall::
 
 
 SECTION "vblank", ROM0[$0040]
-	jp Func_00_230e
+	jp Func_230e
 	ret
 
 
 SECTION "lcd", ROM0[$0048]
-	jp Func_00_237f
+	jp Func_237f
 	ret
 
 

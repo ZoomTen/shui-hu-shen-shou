@@ -23,7 +23,7 @@ SOURCES := \
 
 OBJS := $(SOURCES:%.asm=%.o)
 
-ROM := shui-hu-shen-shou.gbc
+ROM := shui_hu_shen_shou.gbc
 MAP := $(ROM:%.gbc=%.map)
 SYM := $(ROM:%.gbc=%.sym)
 

@@ -2,7 +2,7 @@
 baserom.gbc
 
 # Compiled stuff
-shui-hu-shen-shou.gbc
+shui_hu_shen_shou.gbc
 *.o
 *.map
 *.sym

@@ -65,7 +65,7 @@ endif
 
 $(ROM): $(OBJS)
 	$(LINK) -n $(SYM) -m $(MAP) -p 0 -o $@ $(OBJS)
-	$(FIX) -cv -t $(ROM_TITLE) -l 0x33 -k A7 -m 0x1b -r 2 -p 0 $@
+	$(FIX) -cv -t $(ROM_TITLE) -l 0x33 -m 0x1b -r 2 -p 0 $@
 
 ### Catch-all graphics rules
 

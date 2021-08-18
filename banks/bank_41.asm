@@ -3,4 +3,5 @@ Unk_41_4000:
 
 
 SECTION "banknum41", ROMX[$7fff], BANK[$41]
-	db $41
+; wrong bank number
+	db $42

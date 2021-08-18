@@ -1,6 +1,4 @@
 Unk_44_4000:
-	dr $110000, $113fff
+	dr $110000, $114000
 
-
-SECTION "banknum44", ROMX[$7fff], BANK[$44]
-	db $44
+; no bank number at the end

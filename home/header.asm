@@ -48,6 +48,16 @@ SECTION "Header", ROM0[$0100]
 Start::
 	jp Func_0150
 
-; The Game Boy cartridge header data is patched over by rgbfix.
-; This makes sure it doesn't get used for anything else.
-	ds $0150 - @, $00
+; rgbfix patches over most of the header
+; however this game is being weird
+
+; non-ASCII license code
+	ds $144 - @, 0
+	db $01, $07
+
+; destination code
+	ds $14a - @, 0
+	db $0f
+
+; leave out the rest
+	ds $150 - @, 0

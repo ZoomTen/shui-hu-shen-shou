@@ -513,124 +513,124 @@ INCLUDE "banks/bank_66.asm"
 
 SECTION "bank67", ROMX, BANK[$67]
 
-INCLUDE "banks/bank_67.asm"
+; empty bank
 
 
 SECTION "bank68", ROMX, BANK[$68]
 
-INCLUDE "banks/bank_68.asm"
+; empty bank
 
 
 SECTION "bank69", ROMX, BANK[$69]
 
-INCLUDE "banks/bank_69.asm"
+; empty bank
 
 
 SECTION "bank6a", ROMX, BANK[$6a]
 
-INCLUDE "banks/bank_6a.asm"
+; empty bank
 
 
 SECTION "bank6b", ROMX, BANK[$6b]
 
-INCLUDE "banks/bank_6b.asm"
+; empty bank
 
 
 SECTION "bank6c", ROMX, BANK[$6c]
 
-INCLUDE "banks/bank_6c.asm"
+; empty bank
 
 
 SECTION "bank6d", ROMX, BANK[$6d]
 
-INCLUDE "banks/bank_6d.asm"
+; empty bank
 
 
 SECTION "bank6e", ROMX, BANK[$6e]
 
-INCLUDE "banks/bank_6e.asm"
+; empty bank
 
 
 SECTION "bank6f", ROMX, BANK[$6f]
 
-INCLUDE "banks/bank_6f.asm"
+; empty bank
 
 
 SECTION "bank70", ROMX, BANK[$70]
 
-INCLUDE "banks/bank_70.asm"
+; empty bank
 
 
 SECTION "bank71", ROMX, BANK[$71]
 
-INCLUDE "banks/bank_71.asm"
+; empty bank
 
 
 SECTION "bank72", ROMX, BANK[$72]
 
-INCLUDE "banks/bank_72.asm"
+; empty bank
 
 
 SECTION "bank73", ROMX, BANK[$73]
 
-INCLUDE "banks/bank_73.asm"
+; empty bank
 
 
 SECTION "bank74", ROMX, BANK[$74]
 
-INCLUDE "banks/bank_74.asm"
+; empty bank
 
 
 SECTION "bank75", ROMX, BANK[$75]
 
-INCLUDE "banks/bank_75.asm"
+; empty bank
 
 
 SECTION "bank76", ROMX, BANK[$76]
 
-INCLUDE "banks/bank_76.asm"
+; empty bank
 
 
 SECTION "bank77", ROMX, BANK[$77]
 
-INCLUDE "banks/bank_77.asm"
+; empty bank
 
 
 SECTION "bank78", ROMX, BANK[$78]
 
-INCLUDE "banks/bank_78.asm"
+; empty bank
 
 
 SECTION "bank79", ROMX, BANK[$79]
 
-INCLUDE "banks/bank_79.asm"
+; empty bank
 
 
 SECTION "bank7a", ROMX, BANK[$7a]
 
-INCLUDE "banks/bank_7a.asm"
+; empty bank
 
 
 SECTION "bank7b", ROMX, BANK[$7b]
 
-INCLUDE "banks/bank_7b.asm"
+; empty bank
 
 
 SECTION "bank7c", ROMX, BANK[$7c]
 
-INCLUDE "banks/bank_7c.asm"
+; empty bank
 
 
 SECTION "bank7d", ROMX, BANK[$7d]
 
-INCLUDE "banks/bank_7d.asm"
+; empty bank
 
 
 SECTION "bank7e", ROMX, BANK[$7e]
 
-INCLUDE "banks/bank_7e.asm"
+; empty bank
 
 
 SECTION "bank7f", ROMX, BANK[$7f]
 
-INCLUDE "banks/bank_7f.asm"
+; empty bank
